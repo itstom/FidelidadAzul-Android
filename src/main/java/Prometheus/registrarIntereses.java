@@ -9,5 +9,6 @@ public class registrarIntereses extends base {
     public static void main (String[] args) throws MalformedURLException {
         AndroidDriver<AndroidElement> driver = capabilities();
         driver.findElementById("").click();
+        driver.
     }
 }
